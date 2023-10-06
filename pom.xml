@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <name>connector-template-inbound</name>
-  <description>Camunda Inbound Connector Template</description>
+  <name>Email Watch Connector</name>
+  <description>Camunda Inbound connector to watch for incoming email</description>
   <groupId>io.camunda.connector</groupId>
-  <artifactId>connector-template-inbound</artifactId>
+  <artifactId>email-watch-connector</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.2.0-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.release>17</maven.compiler.release>
